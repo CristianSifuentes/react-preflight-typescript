@@ -14,12 +14,12 @@
     "noEmit": true,
 
     /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "erasableSyntaxOnly": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "strict": true,// Enable all strict type-checking options
+    "noUnusedLocals": true,// Report errors on unused locals
+    "noUnusedParameters": true,// Report errors on unused parameters
+    "erasableSyntaxOnly": true,// Only allow syntax that can be erased by the compiler
+    "noFallthroughCasesInSwitch": true,// Report errors for fallthrough cases in switch statements
+    "noUncheckedSideEffectImports": true// Report errors for imports with unchecked side effects
   },
   "include": ["src"]
 }
