@@ -42,7 +42,7 @@ const ironman: Person = {
 const copyIronman: Person = structuredClone(ironman);
 
 //
-const anothecopyIronman = {...ironman
+const anothecopyIronman = {...ironman}
 
 
 console.log(ironman);
